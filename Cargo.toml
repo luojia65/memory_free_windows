@@ -1,0 +1,11 @@
+[package]
+name = "memory_free_windows"
+version = "0.1.0"
+authors = ["luojia"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.winapi]
+version = "*"
+features = ["winbase"]
